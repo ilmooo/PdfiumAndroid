@@ -32,7 +32,7 @@ ext {
     siteUrl = 'https://github.com/barteksc/PdfiumAndroid'
     gitUrl = 'https://github.com/barteksc/PdfiumAndroid.git'
 
-    libraryVersion = '2.0.2'
+    libraryVersion = '2.0.3'
 
     developerId = 'barteksc'
     developerName = 'Bartosz Schiller'
