@@ -32,7 +32,7 @@ ext {
     siteUrl = 'https://github.com/barteksc/PdfiumAndroid'
     gitUrl = 'https://github.com/barteksc/PdfiumAndroid.git'
 
-    libraryVersion = '2.0.3'
+    libraryVersion = '2.0.4'
 
     developerId = 'barteksc'
     developerName = 'Bartosz Schiller'
@@ -51,7 +51,7 @@ android {
         minSdkVersion 26
         targetSdkVersion 35
         versionCode 203
-        versionName "2.0.3"
+        versionName "2.0.4"
         buildConfigField "String", "VERSION_NAME", "\"${versionName}\""
     }
     buildTypes {
@@ -112,7 +112,7 @@ publishing {
         release(MavenPublication) {
             groupId = 'com.shockwave.pdfium'
             artifactId = 'pdfium-android'
-            version = '2.0.3'
+            version = '2.0.4'
 
             afterEvaluate {
                 from components.release
